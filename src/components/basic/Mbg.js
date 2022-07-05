@@ -8,7 +8,7 @@ const Mbg = ({children}) => {
     <SafeAreaView
       style={{
         flex: 1,
-        // backgroundColor: isDarkMode ? theme.colors.bg : theme.colors.lightbg,
+        backgroundColor: '#fff',
       }}>
       {children}
     </SafeAreaView>

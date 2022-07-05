@@ -2,7 +2,7 @@ import {StyleSheet, useColorScheme, Text} from 'react-native';
 import React from 'react';
 import {theme} from './../theme';
 
-const H2 = ({children, font, color}) => {
+const H2 = ({children, font, color, fontWeight}) => {
   const isDarkMode = useColorScheme() === 'light';
 
   return (
@@ -15,7 +15,7 @@ const H2 = ({children, font, color}) => {
             : isDarkMode
             ? theme.colors.bg
             : theme.colors.accent,
-          fontWeight: '400',
+          fontWeight: fontWeight ? fontWeight : '400',
           letterSpacing: 1,
           lineHeight: 24,
         }}>

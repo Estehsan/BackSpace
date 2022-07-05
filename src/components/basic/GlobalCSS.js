@@ -1,6 +1,15 @@
 const GlobalCSS = {
   flex: {flex: 1},
   flexEnd: {flex: 1, alignItems: 'flex-end'},
+  flexHalf: {
+    flex: 1 / 2,
+  },
+  flexQuarter: {
+    flex: 1 / 3,
+  },
+  flexDouble: {
+    flex: 2,
+  },
   h1: {
     color: 'red',
   },
@@ -14,6 +23,11 @@ const GlobalCSS = {
   },
   justifyCenter: {
     justifyContent: 'center',
+  },
+  avatar: {
+    width: 50,
+    height: 50,
+    borderRadius: 20,
   },
   justifyEnd: {
     justifyContent: 'flex-end',

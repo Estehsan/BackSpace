@@ -9,6 +9,8 @@ import H1 from './H1';
 import H2 from './H2';
 import H3 from './H3';
 import H4 from './H4';
+import RedText from './RedText';
+import Btn from './Btn';
 
 import PGrey from './PGrey';
 
@@ -22,6 +24,7 @@ export {
   ImageBg,
   TextInputField,
   P,
+  RedText,
   Mbg,
   HL,
   Heading,

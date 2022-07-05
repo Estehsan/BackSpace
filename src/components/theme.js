@@ -4,7 +4,7 @@ export const theme = {
   ...DefaultTheme,
   colors: {
     ...DefaultTheme.colors,
-    primary: '#00FF41',
+    primary: '#000',
     accent: '#f2f2f2',
 
     bg: '#1e1d20',
@@ -12,12 +12,12 @@ export const theme = {
     lightgrey: '#868686',
     MenuGrey: '#868686',
     header: '#2C2C2E',
-    grey: '#979797',
+    grey: '#d9d9d9',
     lightbg: '#EAEAEA',
     white: '#fff',
     silver: '#9F9F9F',
     tblack: '#19181b',
-    tred: '#f84563',
+    red: '#f84563',
     twhite: '#f9f9fb',
     tgrey: '#C4C4C4',
     tbtn: '#f85c60',

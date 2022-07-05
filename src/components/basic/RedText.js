@@ -3,7 +3,7 @@ import React from 'react';
 import {Title} from 'react-native-paper';
 import {theme} from './../theme';
 
-const H1 = ({children, color, size, lineHeight}) => {
+const RedText = ({children, color, size, lineHeight, fontWeight}) => {
   // const isDarkMode = useColorScheme() === 'light';
 
   return (
@@ -11,8 +11,8 @@ const H1 = ({children, color, size, lineHeight}) => {
       <Text
         style={{
           fontSize: size ? size : 20,
-          color: color ? color : theme.colors.primary,
-          fontWeight: '600',
+          color: color ? color : theme.colors.red,
+          fontWeight: fontWeight ? fontWeight : '600',
           letterSpacing: 1,
           lineHeight: lineHeight ? lineHeight : 24,
         }}>
@@ -22,6 +22,6 @@ const H1 = ({children, color, size, lineHeight}) => {
   );
 };
 
-export default H1;
+export default RedText;
 
 const styles = StyleSheet.create({});
