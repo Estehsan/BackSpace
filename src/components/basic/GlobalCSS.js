@@ -29,6 +29,9 @@ const GlobalCSS = {
     height: 50,
     borderRadius: 20,
   },
+  logo: {
+    width: 250,
+  },
   justifyEnd: {
     justifyContent: 'flex-end',
   },
